@@ -1,0 +1,85 @@
+body {
+  font-family: 'Helvetica', sans-serif; /* Fuente principal */
+  background-color: #f7f7f7; /* Color de fondo */
+  color: #333; /* Color del texto */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b3cfe8; /* Color de fondo del encabezado */
+  padding: 20px; /* Espacio alrededor del contenido del encabezado */
+}
+
+header h1 {
+  color: #333; /* Color del texto del encabezado */
+  font-size: 24px; /* Tamaño de la fuente del encabezado */
+  margin: 0; /* No se agrega espacio adicional alrededor del encabezado */
+}
+
+main {
+  padding: 20px; /* Espacio alrededor del contenido principal */
+}
+
+section {
+  padding: 20px; /* Espacio alrededor del contenido de las secciones */
+  margin-bottom: 20px; /* Espacio entre las secciones */
+}
+
+.profile {
+  background-color: #ff4d4d; /* Color de fondo de la sección de perfil */
+  border-radius: 5px; /* Esquinas redondeadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la sección de perfil */
+}
+
+.profile h2 {
+  color: #fff; /* Color del texto del título de la sección de perfil */
+  font-size: 20px; /* Tamaño de la fuente del título de la sección de perfil */
+  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de perfil */
+}
+
+.profile p {
+  color: #fff; /* Color del texto del contenido de la sección de perfil */
+  font-size: 16px; /* Tamaño de la fuente del contenido de la sección de perfil */
+  line-height: 1.5; /* Espacio entre las líneas del contenido de la sección de perfil */
+}
+
+.skills {
+  background-color: #ff9900; /* Color de fondo de la sección de habilidades */
+}
+
+.skills h2 {
+  color: #fff; /* Color del texto del título de la sección de habilidades */
+  font-size: 20px; /* Tamaño de la fuente del título de la sección de habilidades */
+  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de habilidades */
+}
+
+.skills ul {
+  list-style-type: none; /* Sin marcadores */
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+  background-color: #ffffff; /* Color de fondo de los elementos de la lista */
+}
+
+.projects {
+  background-color: #0099ff; /* Color de fondo de la sección de proyectos */
+}
+
+.projects h2 {
+  color: #fff; /* Color del texto del título de la sección de proyectos */
+  font-size: 20px; /* Tamaño de la fuente del título de la sección de proyectos */
+  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de proyectos */
+}
+
+.projects ul {
+  list-style-type: none; /* Sin marcadores */
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
