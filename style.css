@@ -1,85 +1,66 @@
-body {
-  font-family: 'Helvetica', sans-serif; /* Fuente principal */
-  background-color: #f7f7f7; /* Color de fondo */
-  color: #333; /* Color del texto */
-  margin: 0;
-  padding: 0;
-}
+/* Basic styles */ body { font-family: Arial, sans-serif; font-size: 18px; line-height: 1.5; color: #333; background-color: #f5f5f5; }
 
-header {
-  background-color: #b3cfe8; /* Color de fondo del encabezado */
-  padding: 20px; /* Espacio alrededor del contenido del encabezado */
-}
+header { text-align: center; background-color: #007bff; color: #fff; padding: 20px; }
 
-header h1 {
-  color: #333; /* Color del texto del encabezado */
-  font-size: 24px; /* Tamaño de la fuente del encabezado */
-  margin: 0; /* No se agrega espacio adicional alrededor del encabezado */
-}
+h1 { font-size: 36px; }
 
-main {
-  padding: 20px; /* Espacio alrededor del contenido principal */
-}
+main { padding: 20px; }
 
-section {
-  padding: 20px; /* Espacio alrededor del contenido de las secciones */
-  margin-bottom: 20px; /* Espacio entre las secciones */
-}
+section { margin-bottom: 20px; }
 
-.profile {
-  background-color: #ff4d4d; /* Color de fondo de la sección de perfil */
-  border-radius: 5px; /* Esquinas redondeadas */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la sección de perfil */
-}
+h2 { font-size: 24px; margin-top: 0; }
 
-.profile h2 {
-  color: #fff; /* Color del texto del título de la sección de perfil */
-  font-size: 20px; /* Tamaño de la fuente del título de la sección de perfil */
-  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de perfil */
-}
+ul { list-style: none; padding: 0; }
 
-.profile p {
-  color: #fff; /* Color del texto del contenido de la sección de perfil */
-  font-size: 16px; /* Tamaño de la fuente del contenido de la sección de perfil */
-  line-height: 1.5; /* Espacio entre las líneas del contenido de la sección de perfil */
-}
+li { margin-bottom: 10px; }
+
+a { text-decoration: none; color: #007bff; }
+
+footer { text-align: center; background-color: #f5f5f5; color: #333; padding: 20px; }
+
+/* Additional styles */
+
+/* Profile section */
+
+.profile { background-color: #fff; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 20px; }
+
+.profile h2 { margin-top: 0; }
+
+.profile p { font-size: 18px; line-height: 1.5; }
+
+/* Skills section */
+
+.skills { background-color: #fff; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 20px; }
+
+.skills ul { display: flex; flex-wrap: wrap; }
+
+.skills li { background-color: #007bff; color: #fff; border-radius: 10px; font-size: 16px; line-height: 1.5; padding: 10px; margin-right: 10px; }
+
+/* Projects section */
 
 .skills {
-  background-color: #ff9900; /* Color de fondo de la sección de habilidades */
-}
-
-.skills h2 {
-  color: #fff; /* Color del texto del título de la sección de habilidades */
-  font-size: 20px; /* Tamaño de la fuente del título de la sección de habilidades */
-  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de habilidades */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
 .skills ul {
-  list-style-type: none; /* Sin marcadores */
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Espacio uniforme entre tarjetas */
 }
 
 .skills li {
-  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
-  background-color: #ffffff; /* Color de fondo de los elementos de la lista */
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 15px; /* Aumenta el padding para tarjetas más cómodas */
+  transition: background-color 0.2s ease-in-out; /* Animación hover */
 }
 
-.projects {
-  background-color: #0099ff; /* Color de fondo de la sección de proyectos */
+.skills li:hover {
+  background-color: #0d6efd; /* Cambia el color de fondo al pasar el mouse */
 }
-
-.projects h2 {
-  color: #fff; /* Color del texto del título de la sección de proyectos */
-  font-size: 20px; /* Tamaño de la fuente del título de la sección de proyectos */
-  margin-bottom: 10px; /* Espacio entre el título y el contenido de la sección de proyectos */
-}
-
-.projects ul {
-  list-style-type: none; /* Sin marcadores */
-  margin: 0;
-  padding: 0;
-}
-
-.projects li {
-  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
